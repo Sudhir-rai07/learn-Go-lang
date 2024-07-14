@@ -25,4 +25,10 @@ func main() {
 	fmt.Println("New marks slice : ", marksSlice)
 	fmt.Println("Length of Slice marks is: ", len(marksSlice))
 
+	var newSlice []string
+	fmt.Printf("len of s %v cap of s %v\n", len(newSlice), cap(newSlice))
+	if newSlice == nil {
+		fmt.Println("Nil newSlice")
+	}
+
 }
